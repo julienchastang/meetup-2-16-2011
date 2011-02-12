@@ -1,0 +1,23 @@
+* Denver Clojure Meetup 2/16/2011
+
+"If developers are unable to design software to fully exploit the resources provided by multiple cores, then they will ultimately reach an insurmountable performance ceiling." http://en.wikipedia.org/wiki/Multi-core_(computing)
+
+** ➜ Java concurrency and parallelism, a brief history
+   - Visionary and prescient.
+   - Built-in support for threads, locks,etc.
+   - But too low level, hard to use! (notfifyAll, etc.)
+   - D Lea's java.util.concurrent helped a lot.
+   - But still too low level!
+   - Probably same for forthcoming F/J
+   - Difficult to use abstractions
+** ➜ Clojure and its concurrency primitives
+   - Built on top of Doug Lea's work
+   - agents
+   - pmap
+   - pcalls
+   - pvalues
+   - futures
+** ➜ Agents
+   - Agents manage state
+   - More importantly execution
+ 
