@@ -9,6 +9,7 @@
    - D Lea's java.util.concurrent helped a lot.
    - But still too low level!
    - Probably same for forthcoming F/J
+   - Java enables // programming but..
    - Difficult to use abstractions
 ** ➜ Clojure and its concurrency primitives
    - Built on top of Doug Lea's work
@@ -18,6 +19,16 @@
    - pvalues
    - futures
 ** ➜ Agents
-   - Agents manage state
-   - More importantly execution
+   - Agents manage state (also refs & atoms)
+   - More importantly managing execution flow
+   - send and send-off
+   - Examples
+** ➜ pmap
+   - uses futures under the hood
+   - Examples
+** ➜ Thinking parallel
+   - Clojure solved many problems
+   - Must now reason about // programming
+   - Watch out for serial bottle necks!
+** ➜ Check web cams exercise
  
