@@ -2,7 +2,7 @@
 
 "If developers are unable to design software to fully exploit the resources provided by multiple cores, then they will ultimately reach an insurmountable performance ceiling." http://en.wikipedia.org/wiki/Multi-core_(computing)
 
-** ➜ Java concurrency and parallelism, a brief history
+** ➜ Java concurrency &  parallelism
    - Visionary and prescient.
    - Built-in support for threads, locks,etc.
    - But too low level, hard to use! (notfifyAll, etc.)
@@ -10,8 +10,8 @@
    - But still too low level!
    - Probably same for forthcoming F/J
    - Java enables // programming but..
-   - Difficult to use abstractions
-** ➜ Clojure and its concurrency primitives
+   - Difficult abstractions
+** ➜ Clojure & its concurrency primitives
    - Built on top of Doug Lea's work
    - agents
    - pmap
