@@ -34,4 +34,4 @@ http://en.wikipedia.org/wiki/Multi-core_(computing)
    - Clojure solved many problems
    - Must now reason about // programming
    - Watch out for serial bottle necks!
-** ➜ Check web cams exercise 
+   - Check web cams URLs exercise 
