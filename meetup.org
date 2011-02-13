@@ -14,11 +14,13 @@ http://en.wikipedia.org/wiki/Multi-core_(computing)
    - Difficult abstractions
 ** ➜ Clojure & its concurrency primitives
    - Built on top of Doug Lea's work
+   - futures
    - agents
    - pmap
    - pcalls
    - pvalues
-   - futures
+** ➜ Futures
+   - Wrapper around Java Futures
 ** ➜ Agents
    - Agents manage state (also refs & atoms)
    - More importantly managing execution flow
