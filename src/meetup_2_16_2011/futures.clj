@@ -16,11 +16,6 @@
 
 @b
 
-
 (future-done? b)
 
 @b
-
-
-
-

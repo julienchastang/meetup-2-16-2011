@@ -28,3 +28,5 @@
 ;; Wait a bit
 
 @a
+
+;; Can also check for errors and restart agent.
