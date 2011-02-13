@@ -5,12 +5,12 @@ http://en.wikipedia.org/wiki/Multi-core_(computing)
 
 ** ➜ Java concurrency &  parallelism
    - Visionary and prescient.
-   - Built-in support for threads, locks,etc.
+   - Built-in support for threads, locks, etc.
    - But too low level, hard to use! (notfifyAll, etc.)
    - D Lea's java.util.concurrent helped a lot.
    - But still too low level!
    - Probably same for forthcoming F/J
-   - Java enables // programming but..
+   - Java enables // programming but...
    - Difficult abstractions
 ** ➜ Clojure & its concurrency primitives
    - Built on top of Doug Lea's work
@@ -21,6 +21,7 @@ http://en.wikipedia.org/wiki/Multi-core_(computing)
    - pvalues
 ** ➜ Futures
    - Wrapper around Java Futures
+   - Examples
 ** ➜ Agents
    - Agents manage state (also refs & atoms)
    - More importantly managing execution flow
@@ -33,5 +34,4 @@ http://en.wikipedia.org/wiki/Multi-core_(computing)
    - Clojure solved many problems
    - Must now reason about // programming
    - Watch out for serial bottle necks!
-** ➜ Check web cams exercise
- 
+** ➜ Check web cams exercise 
