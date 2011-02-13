@@ -23,15 +23,16 @@
 (defn check-url
   "Check URL"
   [url]
-  (set [(str url)
-	(valid-url? url)]))
+  (future (set [(str url)
+		(valid-url? url)])))
 
 (defn check-urls
   [urls]
-  (doall (pmap #(check-urls %) urls)))
+  (doall (map #(check-url %) urls)))
 
-(def answers (future check-urls urls))
+(def futures (check-urls urls))
 
-(future-done? answers)
+(def results (map #(deref %)
+		  (filter #(future-done? %) futures)))
 
-@answers
+(def un-results (filter #(not (future-done? %)) futures))

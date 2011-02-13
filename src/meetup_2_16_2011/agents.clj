@@ -1,4 +1,6 @@
-(ns meetup-2-16-2011.agents)
+(ns meetup-2-16-2011.agents
+  ^{:doc "Showing some agent examples"
+    :author "julien.c.chastang@gmail.com"})
 
 ;; Simple agent example 
 

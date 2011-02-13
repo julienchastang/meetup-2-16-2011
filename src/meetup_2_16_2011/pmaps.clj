@@ -1,5 +1,8 @@
-(ns meetup-2-16-2011.pmaps)
+(ns meetup-2-16-2011.pmaps
+  ^{:doc "pmap example"
+    :author "julien.c.chastang@gmail.com"})
 
+;; long running function
 (defn long-f [f & args]
   (Thread/sleep 1000)
   (apply f args))
