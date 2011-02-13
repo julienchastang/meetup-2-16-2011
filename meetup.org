@@ -1,6 +1,7 @@
 * Denver Clojure Meetup 2/16/2011
 
-"If developers are unable to design software to fully exploit the resources provided by multiple cores, then they will ultimately reach an insurmountable performance ceiling." http://en.wikipedia.org/wiki/Multi-core_(computing)
+"If developers are unable to design software to fully exploit the resources provided by multiple cores, then they will ultimately reach an insurmountable performance ceiling." 
+http://en.wikipedia.org/wiki/Multi-core_(computing)
 
 ** ➜ Java concurrency &  parallelism
    - Visionary and prescient.

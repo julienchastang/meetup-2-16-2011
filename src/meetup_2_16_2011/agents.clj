@@ -1,4 +1,4 @@
-(ns meetup-2-16-2011.core)
+(ns meetup-2-16-2011.agents)
 
 ;; Simple agent example 
 
