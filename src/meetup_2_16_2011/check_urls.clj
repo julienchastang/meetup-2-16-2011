@@ -32,7 +32,9 @@
 
 (def futures (check-urls urls))
 
-(def results (map #(deref %)
-		  (filter #(future-done? %) futures)))
+(def results (fn []
+	       (map #(deref %)
+		    (filter #(future-done? %) futures))))
 
-(def un-results (filter #(not (future-done? %)) futures))
+(def un-results (fn []
+		  (filter #(not (future-done? %)) futures)))
