@@ -3,7 +3,7 @@
 "If developers are unable to design software to fully exploit the resources provided by multiple cores, then they will ultimately reach an insurmountable performance ceiling." 
 http://en.wikipedia.org/wiki/Multi-core_(computing)
 
-** ➜ Java concurrency &  parallelism
+** ➜  Java concurrency &  parallelism
    - Visionary and prescient.
    - Built-in support for threads, locks, etc.
    - But too low level, hard to use! (notfifyAll, etc.)
@@ -12,26 +12,30 @@ http://en.wikipedia.org/wiki/Multi-core_(computing)
    - Probably same for forthcoming F/J
    - Java enables // programming but...
    - Difficult abstractions
-** ➜ Clojure & its concurrency primitives
+** ➜  Clojure & its concurrency primitives
    - Built on top of Doug Lea's work
    - futures
    - agents
    - pmap
    - pcalls
    - pvalues
-** ➜ Futures
+** ➜  Futures
    - Wrapper around Java Futures
    - Examples
-** ➜ Agents
+** ➜  Agents
    - Agents manage state (also refs & atoms)
    - More importantly managing execution flow
    - send and send-off
    - Examples
-** ➜ pmap
+** ➜  pmap
    - uses futures under the hood
    - Examples
-** ➜ Thinking parallel
+** ➜  Thinking parallel
    - Clojure solved many problems
    - Must now reason about // programming
    - Watch out for serial bottle necks!
    - Check web cams URLs exercise 
+
+** ➜  What is forthcoming?
+   - Fork/Join
+   - Exposing more of java.util.concurrent???
