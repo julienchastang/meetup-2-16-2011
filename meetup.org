@@ -22,6 +22,7 @@ http://en.wikipedia.org/wiki/Multi-core_(computing)
    - promises
 ** ➜  Futures
    - Wrapper around Java Futures
+   - Future results are cached
    - Examples
 ** ➜  Agents
    - Agents manage state (also refs & atoms)
@@ -31,6 +32,10 @@ http://en.wikipedia.org/wiki/Multi-core_(computing)
 ** ➜  pmap
    - uses futures under the hood
    - Examples
+** ➜  Promises
+   - Analogous to a SynchronousQueue in Java
+   - Useful for inter-thread communication
+   - Data flow programming
 ** ➜  Thinking parallel
    - Clojure solved many problems
    - Must now reason about // programming
