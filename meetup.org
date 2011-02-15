@@ -19,6 +19,7 @@ http://en.wikipedia.org/wiki/Multi-core_(computing)
    - pmap
    - pcalls
    - pvalues
+   - promises
 ** ➜  Futures
    - Wrapper around Java Futures
    - Examples
