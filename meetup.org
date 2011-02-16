@@ -15,15 +15,20 @@ http://en.wikipedia.org/wiki/Multi-core_(computing)
 ** ➜  Clojure & its concurrency primitives
    - Built on top of Doug Lea's work
    - futures
+   - promises
    - agents
    - pmap
    - pcalls
    - pvalues
-   - promises
 ** ➜  Futures
    - Wrapper around Java Futures
    - Future results are cached
    - Examples
+** ➜  Promises
+   - Analogous to a SynchronousQueue in Java
+   - Hand-off point
+   - Useful for inter-thread communication
+   - Data flow programming
 ** ➜  Agents
    - Agents manage state (also refs & atoms)
    - More importantly managing execution flow
@@ -32,10 +37,6 @@ http://en.wikipedia.org/wiki/Multi-core_(computing)
 ** ➜  pmap
    - uses futures under the hood
    - Examples
-** ➜  Promises
-   - Analogous to a SynchronousQueue in Java
-   - Useful for inter-thread communication
-   - Data flow programming
 ** ➜  Thinking parallel
    - Clojure solved many problems
    - Must now reason about // programming
