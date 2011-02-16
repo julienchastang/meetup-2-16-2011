@@ -1,6 +1,4 @@
-(ns ^{:doc "Showing some agent examples"
-      :author "julien.c.chastang@gmail.com"}
-  meetup-2-16-2011.agents)
+(ns meetup-2-16-2011.agents)
 
 ;; Simple agent example 
 
@@ -9,6 +7,8 @@
 ;; Send takes agent, action function, and args
 
 (send a conj 1)
+
+;; send versus send-off
 
 (send-off a conj 2)
 
@@ -24,6 +24,8 @@
   (apply f a args))
 
 (send a action-f conj 3)
+
+;; Does not block!
 
 @a
 

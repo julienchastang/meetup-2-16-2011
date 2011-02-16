@@ -36,15 +36,15 @@ http://en.wikipedia.org/wiki/Multi-core_(computing)
    - More importantly managing execution flow
    - send and send-off
    - Examples
-** ➜  pmap
+** ➜  pmaps
    - uses futures under the hood
    - Examples
+   - pcall, pvalues
 ** ➜  Thinking parallel
    - Clojure solved many problems
    - Must now reason about // programming
    - Watch out for serial bottle necks!
    - Check web cams URLs exercise 
-
 ** ➜  What is forthcoming?
    - Fork/Join
    - Exposing more of java.util.concurrent???

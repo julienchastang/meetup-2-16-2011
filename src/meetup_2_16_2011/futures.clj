@@ -1,6 +1,4 @@
-y(ns ^{:doc "Examples of futures"
-      :author "julien.c.chastang@gmail.com"}
-  meetup-2-16-2011.futures)
+(ns  meetup-2-16-2011.futures)
 
 ;; Trivial example
 
