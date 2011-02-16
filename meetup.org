@@ -22,6 +22,8 @@ http://en.wikipedia.org/wiki/Multi-core_(computing)
    - pvalues
 ** ➜  Futures
    - Wrapper around Java Futures
+   - Start async process in separate thread
+   - Ask for results later
    - Future results are cached
    - Examples
 ** ➜  Promises
