@@ -14,6 +14,7 @@
 
 (def b (future (long-f + 1 2 3)))
 
+;; Blocks!
 @b
 
 (future-done? b)
