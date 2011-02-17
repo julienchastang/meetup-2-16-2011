@@ -24,11 +24,7 @@
   (future (set [(str url)
 		(valid-url? url)])))
 
-(defn check-urls
-  [urls]
-  (doall (map #(check-url %) urls)))
-
-(def futures (check-urls urls))
+(def futures (doall (map check-url urls)))
 
 (def results (fn []
 	       (map #(deref %)
