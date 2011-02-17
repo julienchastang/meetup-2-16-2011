@@ -9,10 +9,17 @@
 
 (map #(sqr %) (range 0 10))
 
-(time (def a (doall (map #(long-f sqr %) (range 0 10)))))
+(time (def a
+	   (doall
+	    (map
+	     #(long-f sqr %)
+	     (range 0 10)))))
 
 ;; Now try with pmap
 
-(time (def b (doall (pmap #(long-f sqr %) (range 0 10)))))
+(time (def b (doall
+	      (pmap
+	       #(long-f sqr %)
+	       (range 0 10)))))
 
 ;; Under the hood pmap uses futures

@@ -7,7 +7,9 @@
 
 (def b (ref []))
 
-(def c (future (if @a (dosync (alter b conj 1)))))
+(def c (future
+	(if @a (dosync
+		(alter b conj 1)))))
 
 (future-done? c)
 
